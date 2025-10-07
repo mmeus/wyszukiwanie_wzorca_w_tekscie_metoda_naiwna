@@ -1,0 +1,1 @@
+print('\n'.join([for s in [w.strip() for w in open('slowa1.txt').readlines()] if s.count('k') == s.count('w')]))
